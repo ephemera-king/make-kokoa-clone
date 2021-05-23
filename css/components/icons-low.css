@@ -1,0 +1,20 @@
+.icon-low {
+  margin-top: 25px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: var(--main-border);
+}
+
+.icon-low__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-low__icon span {
+  margin-top: 15px;
+}
+
+.icon-low__icon i {
+  font-size: 30px;
+}

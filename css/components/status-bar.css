@@ -1,0 +1,23 @@
+.status-bar {
+  background-color: rgba(70, 70, 70, 0.03);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.status-bar__cloumn:first-child span {
+  margin-right: 5px;
+}
+
+.cog-notice {
+  width: 4px;
+  height: 4px;
+  background-color: red;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  border-radius: 50%;
+}

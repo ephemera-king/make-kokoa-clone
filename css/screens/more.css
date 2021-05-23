@@ -1,0 +1,36 @@
+.image-left {
+  display: flex;
+  justify-content: left;
+}
+.give-margin {
+  margin-right: 53px;
+}
+.more-suggestions-title {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+.more-suggestions__icons {
+  display: flex;
+  margin-left: 5px;
+}
+.more-suggestions__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.img-size {
+  width: 55px;
+  height: 55px;
+  border-radius: 7px;
+  margin-bottom: 8px;
+}
+.more-suggestions__icon-text span {
+  color: rgba(0, 0, 0, 0.45);
+  font-weight: 550;
+}
+.no-margin {
+  margin-right: 0px;
+}

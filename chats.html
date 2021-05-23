@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats-Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__cloumn">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+
+      <div class="status-bar__cloumn">
+        <span>02:46</span>
+      </div>
+      <div class="status-bar__cloumn">
+        <i class="fas fa-lock"></i>
+        <span>11%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icon">
+         <span><i class="fas fa-search fa-lg"></i></span>
+         <span><i class="far fa-comment-dots fa-lg"></i></span>
+         <span><i class="fas fa-music fa-lg"></i></span>
+         <span><a href="setting.html"><i class="fas fa-cog fa-lg"></i></a></span>
+      </div>
+    </header>
+
+    <!--<a id="friends-display-link" href="#">
+      <i class="friends-icon fas fa-info-circle"></i>
+        Friends' Names Display   
+      <i class="fas fa-chevron-right fa-xs"></i>
+    </a>-->
+
+    <main class="friends-screen">
+
+      <a href="chat-2.html">
+        <div class="friends-li">
+          <div class="user-component__column">
+            <img src="screenshots/mayfly.jpg" class="user-component__avatar">
+            <div class="user-component__title">
+              <h4 class="user-component__Name">Mayfly</h4>
+              <h6 class="user-comopnent__subtitle">Maybe I will die tommorrow</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">01:09</span>
+            <div class="user-component__notice badge">1</div>
+          </div>
+          </div>
+        </a>
+      <a href="chat.html">
+      <div class="friends-li">
+        <div class="user-component__column">
+          <img src="screenshots/iron.jpg" class="user-component__avatar"/>
+          <div class="user-component__title">
+            <h4 class="user-component__Name">Ironman</h4>
+            <h6 class="user-comopnent__subtitle">Hi nice to meet you</h6>
+         </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">01:09</span>
+        </div>
+        
+      </div>
+    </a>
+       
+     <!--  <div class="user-component__friends-li">
+         <span class="friends-screen__ul">friends</span>
+         <i class="fas fa-chevron-up "></i>
+       </div>
+
+       <div class="friends-li">
+         <img class="user-component__avatar--sm"src="screenshots/iron.jpg"/>
+        <div>
+         <div>
+          <h1 class="friends-component__Name">ironman</h1>
+         </div>
+
+         <div>
+           <h6 class="user-comopnent__subtitle">I am a ironman</h6>
+         </div>
+        </div>
+       </div>-->
+      
+      
+    </main>
+
+   
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nev__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="far fa-user fa-lg"></i>
+          </a>
+        </li>
+        <li class="nev__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__new badge">N</span>
+            <i class="fas fa-comment fa-lg"></i>
+          </a>
+        </li>
+        <li class="nev__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-lg"></i>
+          </a>
+        </li>
+        <li class="nev__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__ellipsis-notice"></span>
+            <i class="fas fa-ellipsis-h fa-lg"></i>
+          </a>
+        </li>
+      </ul class="nav__list">
+    </nav>
+    <div id="no-mobile">
+      <span>Your screen is too big... ㅠㅠ</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/347ea66aaf.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.nav__link {
+  position: relative;
+}
+.nav__new {
+  animation: notificationAvimation 0.8s ease-in-out infinite;
+  position: absolute;
+  right: -5px;
+  bottom: 10px;
+}
+@keyframes notificationAvimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateY(50deg);
+  }
+  55% {
+    transform: rotateX(50deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+.nav__ellipsis-notice {
+  background-color: red;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  right: -5px;
+  bottom: 20px;
+}
+@keyframes appearBtnAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.nev__btn {
+  transform: translateY(50px);
+  opacity: 0;
+  animation: appearBtnAnimation 1s ease-in-out forwards;
+}
+
+.nev__btn:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.nev__btn:nth-child(3) {
+  animation-delay: 0.5s;
+}
+.nev__btn:last-child {
+  animation-delay: 0.8s;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.screen-header__icon .fa-cog:hover {
+  animation: rotateCog 2s linear infinite;
+}

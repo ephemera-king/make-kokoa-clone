@@ -1,0 +1,58 @@
+.user-component,
+.user-component__column:first-child {
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-component {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+  border-radius: 40%;
+}
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+}
+.user-component__avatar--sm {
+  width: 60px;
+  margin-right: 15px;
+  height: 60px;
+}
+.friends-component__Name {
+  font-weight: 500;
+  font-size: 19px;
+}
+.user-component__Name {
+  font-weight: 600;
+  font-size: 19px;
+}
+.user-comopnent__subtitle {
+  margin-top: 10px;
+
+  font-size: 15px;
+  font-weight: 560;
+  color: rgba(0, 0, 0, 0.3);
+}
+.user-component__column:nth-child(2) {
+  display: flex;
+  align-items: flex-end;
+
+  flex-direction: column;
+}
+.user-component__time {
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+}
+.user-component__notice {
+  position: relative;
+}
+.friends-screen {
+  padding: 0px var(--screenheader-space);
+}
